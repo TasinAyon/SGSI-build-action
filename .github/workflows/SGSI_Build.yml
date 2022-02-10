@@ -38,7 +38,7 @@ jobs:
           sudo -E apt-get clean
           df -h
 
-      - name: Initializing Environment
+      - name: Initializ Environment
         run: |
           sudo apt-get install -y git wget git zip unzip curl axel
 
