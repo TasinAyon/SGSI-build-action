@@ -1,8 +1,10 @@
 name: SGSI_Build
 
 on:
-  watch:
-    types: [started]
+   pull_request:
+   push:
+     branches:
+       - master
 
 jobs:
   build:
